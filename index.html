@@ -1,16 +1,16 @@
 <html><head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-  <title>Audio samples from "Timbre Disentanglement Exploration in Non-Autoregressive Cross-Lingual Text-to-Speech"</title>
+  <title>Audio samples from "Exploring Timbre Disentanglement in Non-Autoregressive Cross-Lingual Text-to-Speech"</title>
   </head>
   <body>
     <article>
       <header>
-        <h1>Audio samples from "Timbre Disentanglement Exploration in Non-Autoregressive Cross-Lingual Text-to-Speech"</h1>
+        <h1>Audio samples from "Exploring Timbre Disentanglement in Non-Autoregressive Cross-Lingual Text-to-Speech"</h1>
       </header>
     </article>
 
     <div><b>Abstract:</b>
-        How to make better use of the controllability of the non-autoregressive model to improve the cross-lingual Text-to-Speech(TTS) model is a problem worthy of research. In this paper, we propose a FastPitch-based cross-Lingual TTS model with language-dependent representation. We evaluate the effect of using different numbers of training speakers in FastPitch-based multilingual model and explore the controllability of FastPitch in Mandarin-dominated cross-lingual utterances. Our experimental results show that the proposed approach could achieve decent speaker consistency and similarity with multi-speaker datasets and explicit pitch information modeling, improve the naturalness of Mandarin-dominated mixed-lingual utterances by utilizing the controllability of non-autoregressive model and our proposed phoneme length regulator.
+        In this paper, we present a FastPitch-based non-autoregressive cross-lingual Text-to-Speech (TTS) model built with languageindependent input representation and monolingual force aligners. We propose a phoneme length regulator that solves the length mismatch problem between language-independent phonemes and monolingual alignment results. Our experiments show that (1) an increasing number of training speakers encourages non-autoregressive cross-lingual TTS model to disentangle speaker and language representations, and (2) variance adaptors of FastPitch model can help disentangle speaker identity from learned representations in crosslingual TTS. The subjective evaluation shows that our proposed model is able to achieve decent speaker consistency and similarity. We further improve the naturalness of Mandarin-dominated mixedlingual utterances by utilizing the controllability of our proposed model.
 
     </div>
 
@@ -21,6 +21,7 @@
     <ul>
       <li><a href="#cn_speaker">CN Male Speaker Utterances</a></li>
       <li><a href="#en_speaker">En Female Speaker Utterances</a></li>
+       <li><a href="#baseline_noall">Mandarin-dominated mixed-lingual utterances(Baseline Without All Methods)</a></li>
        <li><a href="#proposed_methods">Mandarin-dominated mixed-lingual utterances(Proposed Methods)</a></li>
     </ul>
     </div>
@@ -162,7 +163,7 @@
         
       </tbody></table>
 
-      <a name="proposed_methods"><h2>Mandarin-dominated mixed-lingual utterances(Baseline Without All Methods)</h2></a>
+      <a name="baseline_noall"><h2>Mandarin-dominated mixed-lingual utterances(Baseline Without All Methods)</h2></a>
        <table>
         <tbody>
         <tr>
